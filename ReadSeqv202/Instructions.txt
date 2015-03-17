@@ -1,0 +1,96 @@
+basic instructions for installing readseq.exe replacement (from code.google.com) for 64-bit windows
+
+=========Current Version (2.0) Mar 10, 2012=============
+Please note that you MUST create a junction to your bioedit temporary files directory.  This is not done automatically because you may have specified an alternative temporary directory within BioEdit.
+If you have BioEdit installed to an atypical location (e.g. you installed to D:\Science\BioEdit\) you will either need to a) recompile or b) create a junction at c:\BioEdit\ that points to your install location.
+
+unzip all files, or at least readseq.exe, in this zip file to your BioEdit\apps subdirectory - you may wish to rename or copy your existing readseq.exe first
+optional files (not included, but available on this website) should be installed to the same directory with the exception of 7zipMods
+unzip the 7zipMods (if downloaded) to your 7-zip program directory
+Note: All NEEDED components are presumed to have been included in the downloadable exe.
+
+Required 3rd/4th party applications:
+	BioEdit (I use version 7, but should work with earlier versions as well)
+	mklink, junction or linkd (see http://www.evga.com/forums/tm.aspx?m=1108749) - likely is preinstalled with your version of windows
+	java runtime environment 1.1 or greater - likely is preinstalled with your version of windows.  Otherwise available at java.sun.com.  If you refuse to/can't use java, please use the readseq replacement version 1.
+
+Recommended 3rd/4th party applications:
+	7-zip
+	Modifications to 7-zip as included on this website (code.google.com)
+	flip.exe
+
+Additional installation instructions:
+	use mklink (part of the Windows Vista or 7 OS) or equivalent to create the following junction
+	 <JUNCTION>     temp [C:\Bioedit\temp]
+	e.g. mklink /j temp "C:\Bioedit\temp"
+	Optional:
+		 <JUNCTION>     7zip [C:\Program Files\7-Zip] - this is not needed if you don't recompile (see below)
+
+Core File descriptions:
+	readseq.exe - the Windows application compiled in 7-zip which calls the Java version of ReadSeq
+	readseq.jar - should be "included" in the exe, and not needed as a stand-alone file. If it is needed, it's available in the optional files section
+
+	readseq.bat - the source code for this application. Nonessential.
+
+	instructions.txt - this file.  Did you really need to know that?  Nonessential.
+
+Optional Additional Programs:
+	flip.exe - Useful for circumstances in which you're pasting from a mac or unix file or terminal window into Windows.  If you don't have this file, an error/warning will be thrown during execution, but the program should still complete its function (if clipboard text format is already DOS).
+		available from https://ccrma.stanford.edu/~craig/utility/flip/flip.exe
+
+	7zipMods - again, this goes in your 7 zip application folder. Makeexe creates the 32/64 bit application from a source batch.  The sfx file isn't preinstalled with 7zip.
+		Usage: 7zip\MakeExe.bat readseq.bat readseq.jar
+
+	readseq.jar - you'll need this for recompiling, and you may otherwise need it (see above)
+
+Special thanks to Sigve Reiso for the .jar suggestion as well as some template code
+
+Matt Pagel
+
+=========Old Version (1.0)=============
+This section does not apply to the current version, but this description is here for archival purposes.
+
+Required 3rd/4th party applications:
+BioEdit (I use version 7, but should work with earlier versions as well)
+DOSBox 0.79
+mklink, junction or linkd (see http://www.evga.com/forums/tm.aspx?m=1108749)
+
+Recommended 3rd/4th party applications (see source of rs.bat):
+7-zip
+flip.exe
+
+unzip all files in the "root" of this zip file to your BioEdit\apps subdirectory
+unzip the 7zipMods to your 7-zip program directory
+Note: I may have been able to use the 7-zip program to package all these exes and batches into a single file, but I haven't tested that at all.
+
+Additional installation instructions:
+use mklink (part of the windows vista/7 OS) or equivalent to create the following junctions
+ <JUNCTION>     7zip [C:\Program Files\7-Zip] - this is not needed if you don't recompile (see below)
+ <JUNCTION>     Bioedit [C:\BioEdit\]
+ <JUNCTION>     DOSBox [C:\Program Files (x86)\DOSBox-0.74\]
+ <JUNCTION>     temp [C:\Bioedit\temp]
+e.g. mklink /j temp "C:\Bioedit\temp"
+
+additionally, on my system I had readseq.bat and readseq.exe as symbolic links to rs.bat and rs.exe respectively as compiling to the full-length name in 7zip was problematic for some reason.
+
+
+File descriptions:
+DBint.bat - does the call to the readseq.exe initially installed with BioEdit (now readsq16.exe).  If recompiled, this file may not strictly be needed - it might be possible to call readsq16 from the DOSBox call in readseq.exe/rs.bat
+
+flip.exe - I didn't write this and it's not absolutely necessary.  I just thought it would be useful for circumstances in which you're pasting from a mac or unix terminal window into Windows.  If you don't have this file, an error/warning will be thrown during execution, but the program should still complete its function (if clipboard text format is already DOS).
+
+nop.bat - does nothing - is just a space-filler for DOSBox compatibility
+
+readseq.exe - the 32 (or 64?) bit application compiled in 7-zip which calls the 32-bit DOSBox
+
+readsq16.exe - the 16-bit readseq.exe installed with BioEdit.  This file is still needed to do the work - the new readseq.exe calls this application
+
+rs.bat - the "source code" of the 32 bit readseq.exe.  This is only needed if you wish to recompile or something is incompatible on your system.
+
+instructions.txt - this file.  Did you really need to know that?
+
+7zipMods - again, this goes in your 7 zip application folder. Makeexe creates the 32/64 bit application from a source batch.  The sfx file isn't preinstalled with 7zip, nor I believe the .exe.  If you have either of these files present, you likely do not
+
+
+Matt Pagel
+struggling scientist/programmer :P
