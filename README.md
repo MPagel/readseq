@@ -59,7 +59,7 @@ Feedback: testimonials
  {phone, fax & cell number and e-mail redacted}
 
 
-From Erik Pollmann August 15, 2012
+Erik Pollmann. August 15, 2012
 ----
  Just a thanks for "fixing" BioEdit for 64bit OS for me {readseq.exe}. I can't really state how deeply grateful I am - running BioEdit in a virtual machine on my Win7 system really was a pain. And especially the last version (2.02 - hint, the instructions.txt has not been updated to accommodate the 'junctions no longer required' part) is so easy to use that I can just hand it to others without having to hand-hold the installation.
 
@@ -78,8 +78,8 @@ Do you have any suggestions or comments?  Contact me at `<my last name>` at cs.w
 
 Links
 ====
-<a href=http://www.evga.com/forums/tm.aspx?high=&m=1267978>16 bit applications in 64 bit 7/Vista</a>
-<a href=http://www.mbio.ncsu.edu/bioedit/bioedit.html>BioEdit homepage</a>
-<a href=http://iubio.bio.indiana.edu/soft/molbio/readseq/>Don Gilbert's ReadSeq</a>
-<a href=http://www.oracle.com/technetwork/java/javase/downloads/jre-7u3-download-1501631.html>Java Runtime Environment</a>
-<a href=http://www.7-zip.org/>7-zip</a>
+<a href=http://www.evga.com/forums/tm.aspx?high=&m=1267978>16 bit applications in 64 bit 7/Vista</a><br />
+<a href=http://www.mbio.ncsu.edu/bioedit/bioedit.html>BioEdit homepage</a><br />
+<a href=http://iubio.bio.indiana.edu/soft/molbio/readseq/>Don Gilbert's ReadSeq</a><br />
+<a href=http://www.oracle.com/technetwork/java/javase/downloads/jre-7u3-download-1501631.html>Java Runtime Environment</a><br />
+<a href=http://www.7-zip.org/>7-zip</a><br />
