@@ -1,9 +1,9 @@
 Code update
-----
+====
 Latest update 5 June 2012.  Version 2.02.
 
 General information
-====
+----
 This package replaces the 16 bit Readseq.exe (Don Gilbert) from the bioedit\apps directory with a version functional in 64-bit Windows operating system (XP, Vista, 7) which intrinsically does not support 16 bit applications, even in compatibility mode.
 
 I have upgraded this replacement to utilize the java-based ReadSeq version 2, which should theoretically be a bit more stable than the old version.  Should you want it, I'll leave the old replacement on this website as well, in case you have difficulty installing or using this java-based replacement.
@@ -19,7 +19,7 @@ Pennsylvania State University<br>
 e-mail: `<my last name>` at cs.wisc.edu
 
 News update
-----
+====
   * <b>October 2013:</b> testimonials and feedback from Tom Hall and others have been added at http://code.google.com/p/readseq/wiki/Feedback
 
   * <b>December 2013:</b> this patch is included in BioEdit as of version 7.2.5 (11 Dec 2013), but still requires manual installation. The following is from BioEdit's ReadMe.txt:
@@ -30,9 +30,9 @@ News update
   * <b>March 2015:</b> Migrated to Github from Google Code in advance of code.google's impending shutdown
 
 Feedback: testimonials
-----
-<b>Tom Hall</b> (creator, programmer of BioEdit). October 9, 2013:
 ====
+<b>Tom Hall</b> (creator, programmer of BioEdit). October 9, 2013:
+----
 
  ...
  I wanted to say, I just found your program and found it quite impressive.  It worked flawlessly for me with my first test with nexus export/import.
@@ -60,7 +60,7 @@ Feedback: testimonials
 
 
 From Erik Pollmann August 15, 2012
-====
+----
  Just a thanks for "fixing" BioEdit for 64bit OS for me {readseq.exe}. I can't really state how deeply grateful I am - running BioEdit in a virtual machine on my Win7 system really was a pain. And especially the last version (2.02 - hint, the instructions.txt has not been updated to accommodate the 'junctions no longer required' part) is so easy to use that I can just hand it to others without having to hand-hold the installation.
 
  Just again - thank you very much!
@@ -73,14 +73,13 @@ From Erik Pollmann August 15, 2012
  D-13353 Berlin
 
 Additional Feedback
-====
+----
 Do you have any suggestions or comments?  Contact me at `<my last name>` at cs.wisc.edu.  Please note that it may take a week or two (or even a year in the case of one e-mail!) to see your e-mail and respond.
 
 Links
-----
+====
 <a href=http://www.evga.com/forums/tm.aspx?high=&m=1267978>16 bit applications in 64 bit 7/Vista</a>
 <a href=http://www.mbio.ncsu.edu/bioedit/bioedit.html>BioEdit homepage</a>
 <a href=http://iubio.bio.indiana.edu/soft/molbio/readseq/>Don Gilbert's ReadSeq</a>
 <a href=http://www.oracle.com/technetwork/java/javase/downloads/jre-7u3-download-1501631.html>Java Runtime Environment</a>
 <a href=http://www.7-zip.org/>7-zip</a>
-
