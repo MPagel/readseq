@@ -1,5 +1,5 @@
-Note: this is the repository branch for the first version of the ReadSeq replacement that uses a program called DOSBox to interact with the traditional (DOS, non-Java) version of ReadSeq.  Please check the "master" branch for the current version referred to below.
-======
+#####Note: this is the repository branch for the first version of the ReadSeq replacement that uses a program called DOSBox to interact with the traditional (DOS, non-Java) version of ReadSeq.  Please check the "master" branch for the current version referred to below.
+
 Code update
 ====
 Latest update 5 June 2012.  Version 2.02.
