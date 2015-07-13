@@ -12,7 +12,9 @@ Both versions of the replacement are implemented by compiling a batch file to ex
 
 Specific instructions for installation and dependencies required can be found in the batch file REM comments and/or instructions.txt.
 
-My open source license is simply this: if you use this code in part of your coding work, I'd appreciate citation in the comments and documentation.  If you use this as-intended (for a BioEdit ReadSeq replacement/augmentation) and have a paper/chapter derived from results you obtain, I'd appreciate professional acknowledgement, but I by no means expect/require it.  If you don't agree to these terms and conditions, you can still download it and use it as you see fit, because I'm a nice guy who doesn't want to hire a lawyer;)
+My open source license is simply this: if you use this code in part of your coding work, I'd appreciate citation in the comments and documentation.  If you use this as-intended (for a BioEdit ReadSeq replacement/augmentation) and have a paper/chapter derived from results you obtain, I'd appreciate professional acknowledgement, but I by no means expect or require it.  If you don't agree to these terms and conditions, you can still download it and use it as you see fit, because I'm a nice guy who doesn't want to hire a lawyer;)
+
+Speaking of citations, you may use the following for this software [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.20043.svg)](http://dx.doi.org/10.5281/zenodo.20043)
 
 Matt Pagel<br>
 Pennsylvania State University<br>
