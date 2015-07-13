@@ -20,8 +20,8 @@ e-mail: `<my last name>` at cs.wisc.edu
 
 Citation
 ====
-  Matthew D. Pagel. (2015). readseq: ReadSeq replacement for BioEdit on 64-bit platforms, version 2.02. Zenodo. 10.5281/zenodo.20043<br />
-  [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.20043.svg)](http://dx.doi.org/10.5281/zenodo.20043)
+   Matthew D. Pagel. (2012). ReadSeq_x64: ReadSeq replacement for BioEdit on 64-bit platforms, version 2.02. Zenodo. 10.5281/zenodo.20043<br/>
+   [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.20043.svg)](http://dx.doi.org/10.5281/zenodo.20043)
 
 News update
 ====
